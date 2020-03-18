@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>scissorsrockpaper</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./mediaQuery.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat|Roboto+Mono&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+  <h1 class="pageheader">Schnick Schnack Schnuck</h1>
+  <section class="game">
+    <div class="score">
+      <div class="playerscore">
+        <h2>Player</h2>
+        <p>0</p>
+      </div>
+      <div class="computerscore">
+        <h2>Computer</h2>
+        <p>0</p>
+      </div>
+    </div>
+
+    <div class="intro">
+      <h1>Hit the Computer</h1>
+      <button>Let's Play</button>
+    </div>
+
+    <div class="match fadeOut">
+      <h2 class="winner">Take your choice</h2>
+      <div class="hands">
+        <img class="player_hand" src="./assets/ROCK.png" alt="ROCK">
+        <img class="computer_hand" src="./assets/ROCK.png" alt="ROCK">
+      </div>
+      <div class="options">
+        <button class="ROCK">ROCK</button>
+        <button class="PAPER">PAPER</button>
+        <button class="SCISSORS">SCISSORS</button>
+      </div>
+    </div>
+  </section>
+
+  <script src="./main.js"></script>
+
+
+</body>
+
+</html>

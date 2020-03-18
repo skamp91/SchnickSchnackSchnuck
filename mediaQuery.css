@@ -1,0 +1,132 @@
+@media (max-width: 800px) {
+  .pageheader {
+    font-size: 25px;
+    padding: 10px;
+  }
+
+  section {
+    width: 90%;
+    border: 2px solid rgb(85, 107, 47);
+  }
+
+  .score {
+    padding: 10px;
+  }
+
+  .score h2 {
+    font-size: 15px;
+  }
+
+  .score p {
+    font-size: 20px;
+  }
+
+  .intro {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+  }
+
+  .intro h1 {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .match button {
+    font-size: 12px;
+    font-weight: 600;
+    width: 80px;
+    height: 30px;
+    padding: 5px;
+  }
+
+  .winner {
+    font-size: 20px;
+  }
+
+  .hands {
+    justify-content: center;
+    padding: 5px;
+  }
+
+  .hands img {
+    width: 150px;
+  }
+
+  .options {
+    padding: 0;
+  }
+
+  .playerWin {
+    left: 80px;
+  }
+
+  @keyframes playerSmooth {
+    0% {
+      left: 0px;
+      top: 0px;
+      transform: rotateY(180deg);
+    }
+
+    50% {
+      left: 0px;
+      top: -30px;
+      transform: rotate3d(-1, 0, 0, -120deg);
+    }
+
+    100% {
+      left: 80px;
+      top: 0;
+    }
+  }
+
+  .computerWin {
+    right: 80px;
+  }
+
+  @keyframes computerSmooth {
+    0% {
+      right: 0px;
+      top: 0px
+    }
+
+    50% {
+      right: 0px;
+      top: -30px;
+      transform: rotate3d(0.2, 0, 0.5, 120deg);
+    }
+
+    100% {
+      right: 80px;
+      top: 0;
+    }
+  }
+
+  @keyframes playerTie {
+    0% {
+      left: 0px;
+    }
+
+    50% {
+      left: 30px;
+    }
+
+    100% {
+      left: 0px;
+    }
+  }
+
+  @keyframes computerTie {
+    0% {
+      right: 0px;
+    }
+
+    50% {
+      right: 30px;
+    }
+
+    100% {
+      right: 0px;
+    }
+  }
+}
