@@ -1,7 +1,6 @@
 # schnickschnackschnuck
 
-# this is my version of scissorsrockpaper on the base of an online tutorial
-# from developedbyed
+# this is my version of scissorsrockpaper on the base of an online tutorial from developedbyed
 
 # issues:
 # 1. in Chrome the playerHand Animation does not work
